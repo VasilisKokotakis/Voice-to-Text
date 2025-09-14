@@ -44,4 +44,3 @@ if __name__ == "__main__":
 ```
 
 Feel free to explore and enhance this framework to meet your specific requirements. If you encounter any issues or have suggestions for improvement, please don't hesitate to contribute and make this project even better. Happy coding!
-# Voice-to-Text
