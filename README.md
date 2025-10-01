@@ -33,8 +33,8 @@ A simple Python application that records audio from the microphone, converts spe
 1. Clone this repository:
 
    ```bash
-   git clone <repository-url>
-   cd Voice_to_Text
+   git clone https://github.com/VasilisKokotakis/Voice-to-Text.git
+   cd Voice-to-Text
    ```
 
 2. (Optional) Create and activate a virtual environment:
