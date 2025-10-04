@@ -1,93 +1,88 @@
-# Voice to Text
 
-A simple Python application that records audio from the microphone, converts speech to text using Google's Speech Recognition API, and displays the result in a desktop GUI built with Tkinter.
+# 🎙️ Voice to Text App  
 
-***
+A simple yet modern **Voice-to-Text desktop application** built with **Python, CustomTkinter, and SpeechRecognition**.  
+Record your voice 🎤, and instantly convert it into text 📝 with a clean, modern UI.  
 
-## Features
+---
 
-- Record audio from microphone (default 5 seconds)
-- Save recorded audio as WAV file
-- Convert recorded speech to text using Google Speech Recognition
-- Display transcribed text in a scrollable GUI text box
-- Basic error handling for recognition failures
+## ✨ Features  
+- 🎤 **Record Voice** – Capture up to 5 seconds of audio.  
+- 🔍 **Speech Recognition** – Converts speech to text using Google Speech API.  
+- 🖥️ **Modern UI** – Powered by [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter).  
+- 🌗 **Dark/Light Theme** – Follows your system theme.  
+- 📝 **Scrollable Text Box** – Easy to read and copy your transcriptions.  
 
-***
+---
 
-## Requirements
+## 📸 Screenshots  
 
-- Python 3.6 or above
-- Packages:
-  - `speechrecognition`
-  - `sounddevice`
-  - `scipy`
-  - `tkinter` (usually included with Python)
-  
-- **System dependencies** (Linux):
-  - PortAudio library (install via `sudo apt install portaudio19-dev`)
+<img width="489" height="433" alt="image" src="https://github.com/user-attachments/assets/234a1f47-0e07-43e9-8bc0-77928de4a840" />
+<img width="489" height="433" alt="image" src="https://github.com/user-attachments/assets/9ff195a6-56d1-44aa-a06d-0d3404d6d7ed" />
 
-***
+---
 
-## Installation
+## 🚀 Getting Started  
 
-1. Clone this repository:
-
-   ```bash
+### 1. Clone the repository  
+```bash
    git clone https://github.com/VasilisKokotakis/Voice-to-Text.git
    cd Voice-to-Text
-   ```
+````
 
-2. (Optional) Create and activate a virtual environment:
+### 2. Install dependencies
 
-   ```bash
-   python3 -m venv env
-   source env/bin/activate  # Linux/macOS
-   .\env\Scripts\activate   # Windows
-   ```
+```bash
+pip install customtkinter speechrecognition sounddevice scipy
+```
 
-3. Install Python dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Install PortAudio system dependency (Linux):
-
-   ```bash
-   sudo apt update
-   sudo apt install portaudio19-dev
-   ```
-
-***
-
-## Usage
-
-Run the application:
+### 3. Run the app
 
 ```bash
 python VoiceText.py
 ```
 
-The window will open with a button **Record Voice**. Click it to record 5 seconds of audio from your microphone. The recognized text will be displayed in the text box below.
+---
 
-***
+## 🛠 Requirements
 
-## File Structure
+* Python 3.8+
+* Microphone 🎙️
+* Internet connection 🌍 (for Google Speech API)
 
-- `VoiceText.py` — Main application script with Tkinter GUI and speech recognition
-- `RECORDING.WAV` — Temporary audio file saved during recording
-- `requirements.txt` — Python package requirements
+---
 
-***
+## ⚡ Tech Stack
 
-## Troubleshooting
+* [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) – Modern UI
+* [SpeechRecognition](https://pypi.org/project/SpeechRecognition/) – Speech-to-Text
+* [SoundDevice](https://pypi.org/project/sounddevice/) – Audio recording
+* [SciPy](https://scipy.org/) – WAV file saving
 
-- If you get an error like `OSError: PortAudio library not found`, install the system PortAudio development package (see Installation).
-- If recognition returns `[Could not understand audio]`, ensure you speak clearly and your microphone captures sound correctly.
+---
 
-***
+## 📌 Roadmap / Ideas
 
-## License
+* [ ] Add **real-time transcription** while recording
+* [ ] Add **waveform animation** during recording
+* [ ] Export transcription to **.txt / .docx**
+* [ ] Multi-language support 🌍
 
-This project is licensed under the [MIT License](LICENSE).
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome!
+For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## 📄 License
+
+MIT License © 2025 Vasilis Kokotakis
+
+---
+
+⭐ If you like this project, give it a **star** on GitHub!
+
 
