@@ -44,7 +44,7 @@ python VoiceText.py
 
 ---
 
-## 🛠 Requirements
+## Requirements
 
 * Python 3.8+
 * Microphone
@@ -52,7 +52,7 @@ python VoiceText.py
 
 ---
 
-## ⚡ Tech Stack
+## Tech Stack
 
 * [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) – Modern UI
 * [SpeechRecognition](https://pypi.org/project/SpeechRecognition/) – Speech-to-Text
